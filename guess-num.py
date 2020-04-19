@@ -11,10 +11,10 @@ while True:
 	num = int(num)
 	if num == r:
 		print('你猜中了！')
-		print('這是你猜的第', count, '次！')
+		print('這是您猜的第', count, '次！')
 		break
 	elif num > r:
 		print('您猜的數字比答案大！')
 	elif num < r:
 		print('您猜的數字比答案小！')
-	print('這是你猜的第', count, '次！')
+	print('這是您猜的第', count, '次！')
